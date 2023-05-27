@@ -2,13 +2,17 @@
 
 ##### Your Task 📚:
 
-Create a called `findLargestNumbers` function that takes an array of arrays with numbers. Return a new (single) array with the largest numbers of each.
+Create a function called `brokenKeys` what is supposed to be typed and what is actually typed, write a function that returns the broken key(s). The function looks like:
+
+```
+brokenKeys(correct phrase, what you actually typed)
+```
 
 ##### Examples 😃:
 
 ```
-findLargestNumbers([[7, 3, 8, 11], [54, 12, 43, 77], [16, 11, 8]]) ➞ [11, 77, 16]
-findLargestNumbers([[22, 55, 12], [45, 66, 95], [22, 5, 11]]) ➞ [55, 95, 22]
+brokenKeys("fikrcamp bootcamp", "fikrcomp boorcamp") ➞ ["a","t"]
+brokenKeys("good night", "gppd night") ➞ ["o"]
 ```
 
 Good Luck 😀
