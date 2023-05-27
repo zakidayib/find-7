@@ -1,18 +1,15 @@
-## Broken Keys
+## Find smallest and biggest
 
 ##### Your Task 📚:
 
-Create a function called `brokenKeys` what is supposed to be typed and what is actually typed, write a function that returns the broken key(s). The function looks like:
-
-```
-brokenKeys(correct phrase, what you actually typed)
-```
+Create a function called `minMax` that takes an array of numbers and return both the minimum and maximum numbers, in that order.
 
 ##### Examples 😃:
 
 ```
-brokenKeys("fikrcamp bootcamp", "fikrcomp boorcamp") ➞ ["a","t"]
-brokenKeys("good night", "gppd night") ➞ ["o"]
+minMax([1, 2, 3, 4, 5]) ➞ [1, 5]
+minMax([300, 5]) ➞ [5, 300]
+minMax([1]) ➞ [1, 1]
 ```
 
 Good Luck 😀
