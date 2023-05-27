@@ -1,15 +1,20 @@
-## Find smallest and biggest
+## Find Seven
 
 ##### Your Task 📚:
 
-Create a function called `minMax` that takes an array of numbers and return both the minimum and maximum numbers, in that order.
+Create a function called `findSeven` that takes an array of numbers and return "Boom!" if the digit 7 appears in the array. Otherwise, return "there is no 7 in the array".
 
 ##### Examples 😃:
 
 ```
-minMax([1, 2, 3, 4, 5]) ➞ [1, 5]
-minMax([300, 5]) ➞ [5, 300]
-minMax([1]) ➞ [1, 1]
+findSeven([1, 2, 3, 4, 5, 6, 7]) ➞ "Found!"
+// 7 contains the number seven.
+
+findSeven([8, 6, 33, 100]) ➞ "there is no 7 in the array"
+// None of the items contain 7 within them.
+
+findSeven([2, 55, 60, 97, 86]) ➞ "Found!"
+//  None of the items contain 7 within them.
 ```
 
 Good Luck 😀
