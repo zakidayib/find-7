@@ -13,7 +13,7 @@ findSeven([1, 2, 3, 4, 5, 6, 7]) ➞ "Found!"
 findSeven([8, 6, 33, 100]) ➞ "there is no 7 in the array"
 // None of the items contain 7 within them.
 
-findSeven([2, 55, 60, 97, 86]) ➞ "Found!"
+findSeven([2, 55, 60, 97, 86]) ➞ "there is no 7 in the array"
 //  None of the items contain 7 within them.
 ```
 
